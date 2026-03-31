@@ -7,7 +7,7 @@ let users = [];
 
 // Health check
 app.get("/", (req, res) => {
-  res.send("App is running 🚀");
+  res.send("DockerApp is running 🚀");
 });
 
 // Get users
